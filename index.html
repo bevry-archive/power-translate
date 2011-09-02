@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Power Translate</title>
+	<style>
+		.different {
+			font-weight:bold;
+		}
+	</style>
+</head>
+<body>
+	<h1><a href="https://github.com/balupton/power-translate">Power Translate</a></h1>
+	<h2>by <a href="http://balupton.com">Benjamin Lupton</a></h2>
+
+	<p><a href="https://github.com/balupton/power-translate">Power Translate</a> takes a word and figures out what it means in all the different languages</p>
+
+	<hr/>
+
+	your google translate api key: <input type="text" name="key" id="key" placeholder="your google api key" value=""/><a href="https://code.google.com/apis/console#:access">get a google api key here</a><br/>
+	the word to discover it's meaning: <input type="text" name="word" id="word" placeholder="the word to discover"/><br/>
+	the language to display the meaning in: <select name="to" id="to"/><br/>
+	<input type="submit" value="Find out!" id="submit"/>
+
+	<hr/>
+
+	<div id="results"></div>
+	<div id="scripts"></div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js"></script> 
+	<script src="script.coffee" type="text/coffeescript"></script>
+</body>
+</html>
