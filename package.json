@@ -1,0 +1,23 @@
+{
+	"name": "power-translate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/balupton/power-translate.git"
+	},
+	"author": "Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/balupton/power-translate/issues"
+	},
+	"homepage": "https://github.com/balupton/power-translate#readme",
+	"dependencies": {
+		"@google-cloud/translate": "^1.1.0"
+	},
+	"bin": "bin.js"
+}
